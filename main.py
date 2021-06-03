@@ -30,7 +30,7 @@ def choices():
 def main(autoJoin, cameraOn, micOn):
     driver = webdriver.Chrome(options=opt, executable_path="chromedriver.exe")
     driver.get("https://www.classroom.google.com")
-    time.sleep(3)
+    time.sleep(2)
     classroomButton = driver.find_element_by_xpath('//*[@id="gfe-main-content"]/section[1]/div/div/div/ul/li[2]/a')
 
     if path.exists("cookies.txt"):
