@@ -4,4 +4,4 @@ Clone the source code and run the bats in order of Setup.bat to Run.bat.
 
 Use Run.bat **ONLY** every time after initial use.
 
-Make sure Python 3 is installed on the computer and added to PATH variable.
+Make sure Python 3 is installed on the computer and added to PATH variable. Also make sure chrome version 91 is installed, check by going to Google > Settings > About Chrome.
